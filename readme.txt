@@ -14,6 +14,6 @@ Since this plugin only effects your output your visitors links will show up as n
 
 == Installation ==
 
-1. Unzip, upload the 'remove-links-in-comments' folder to your WordPress plugin directory (usually '/wp-content/plugins/');
-1. Activate the plugin through the 'Plugins' menu in WordPress;
-1. You're done (no configuration needed)!
+1. Install plugin.
+2. Activate the plugin through the 'Plugins' menu in WordPress;
+3. You're done (no configuration needed)!
