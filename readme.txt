@@ -1,11 +1,12 @@
-=== Remove Links in Comments ===
-Contributors: Ducedo
-Tags: comments, comment, link, links, hyperlink, remove, prevent, stop, automatic
+=== Remove links and URLs from comment text ===
+Contributors: MarcDK
+Tags: comments, comment, link, links, url, remove, prevent, stop, automatic
 Requires at least: 2.x
-Tested up to: 3.3.1
-Stable tag: 1.1
+Tested up to: 4.8
+Stable tag: 1.0
+GitHub Plugin URI: mtoensing/remove-links-and-urls-from-comments
 
-A very simple plugin that prevents Wordpress from automatically creating hyperlinks in the comments section.
+A very simple plugin that prevents Wordpress from automatically creating links in the comments section.
 
 == Description ==
 
@@ -18,18 +19,3 @@ Since this plugin only effects your output your visitors links will show up as n
 1. Unzip, upload the 'remove-links-in-comments' folder to your WordPress plugin directory (usually '/wp-content/plugins/');
 1. Activate the plugin through the 'Plugins' menu in WordPress;
 1. You're done (no configuration needed)!
-
-== Changelog ==
-
-= 1.1 =
-* Rewrote the plugin to work with latest version of WordPress.
-= 1.0 =
-* First public release
-
-== Donations ==
-
-If you like this plugin, feel free to **donate a link** to [my blog](http://www.stefannilsson.com/ "Stefan Nilsson").
-
-== Feedback ==
-
-Please send me your feedback via this [comment form](http://www.stefannilsson.com/contact).

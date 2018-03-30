@@ -3,7 +3,7 @@
 Plugin Name: Remove links and URLs from comment text
 Plugin URI: https://marc.tv
 Description:
-Version: 1.2
+Version: 1.0
 Author: MarcDK
 Author URI: https://marc.tv
 */
