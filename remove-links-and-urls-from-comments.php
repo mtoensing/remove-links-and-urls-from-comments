@@ -3,7 +3,7 @@
 Plugin Name: Remove links and URLs from comment text
 Plugin URI: https://marc.tv
 Description: A basic plugin that prevents Wordpress after 30 days from automatically creating links in the comments section.
-Version: 1.2
+Version: 1.3
 Author: MarcDK
 Author URI: https://marc.tv
 */
@@ -15,11 +15,11 @@ function marctv_filter_text( $comment_text, $comment = null ) {
 
 	if ( $commentdate < strtotime( '-30 days' ) ) {
 		$link_pattern = "/<a[^>]*>(.*)<\/a>/iU";
-		$string       = preg_replace( $link_pattern, "$1", $comment_text );
-		$string = preg_replace('/\b((https?|ftp|file):\/\/|www\.)[-A-Z0-9+&@#\/%?=~_|$!:,.;]*[A-Z0-9+&@#\/%=~_|$]/i', ' ', $string);
+		$comment_text       = preg_replace( $link_pattern, "$1", $comment_text );
+		$comment_text = preg_replace('/\b((https?|ftp|file):\/\/|www\.)[-A-Z0-9+&@#\/%?=~_|$!:,.;]*[A-Z0-9+&@#\/%=~_|$]/i', ' ', $comment_text);
 	}
 
-	return $string;
+	return $comment_text;
 }
 
 
