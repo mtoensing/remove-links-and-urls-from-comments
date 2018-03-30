@@ -3,7 +3,7 @@
 Plugin Name: Remove links and URLs from comment text
 Plugin URI: https://marc.tv
 Description: A basic plugin that prevents Wordpress after 30 days from automatically creating links in the comments section.
-Version: 1.1
+Version: 1.2
 Author: MarcDK
 Author URI: https://marc.tv
 */
