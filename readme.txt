@@ -12,6 +12,8 @@ A very simple plugin that prevents Wordpress from automatically creating links i
 
 Since this plugin only effects your output your visitors links will show up as normal hyperlinks as soon as you deactivate this plugin.
 
+This plugins also removes the author url from comments older than 30 days.
+
 == Installation ==
 
 1. Install plugin.

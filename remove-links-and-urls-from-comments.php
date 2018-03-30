@@ -9,7 +9,8 @@ Author URI: https://marc.tv
 */
 
 
-function filter_text( $comment_text, $comment = null ) {
+function marctv_filter_text( $comment_text, $comment = null ) {
+
 	$commentdate = strtotime( $comment->comment_date );
 
 	if ( $commentdate < strtotime( '-30 days' ) ) {
@@ -21,7 +22,24 @@ function filter_text( $comment_text, $comment = null ) {
 	return $string;
 }
 
-add_filter( 'comment_text', 'filter_text', 10, 2 );
+
+function marctv_remove_comment_author_link( $comment_author_link, $author, $comment_ID ) {
+
+	$comment = get_comment($comment_ID);
+	$commentdate = strtotime( $comment->comment_date );
+
+	if ( $commentdate < strtotime( '-30 days' ) ) {
+		return $author;
+	} else {
+		return $comment_author_link;
+	}
+}
+
+
+
+add_filter( 'comment_text', 'marctv_filter_text', 10, 2 );
+
+add_filter( 'get_comment_author_link', 'marctv_remove_comment_author_link', 10, 3 );
 
 
 ?>
