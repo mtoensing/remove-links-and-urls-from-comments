@@ -3,7 +3,7 @@ Contributors: MarcDK
 Tags: comments, comment, link, links, url, remove, prevent, stop, automatic
 Requires at least: 2.x
 Tested up to: 4.8
-Stable tag: 1.6
+Stable tag: 1.7
 GitHub Plugin URI: mtoensing/remove-links-and-urls-from-comments
 
 A very simple plugin that prevents Wordpress from automatically creating links in the comments section after 6 months.
