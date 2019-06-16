@@ -1,18 +1,16 @@
-=== Basic links and URLs remover from comment text ===
+=== Basic Comments Links and Author url remover ===
 Contributors: MarcDK
-Tags: comments, comment, link, links, url, remove, prevent, stop, automatic
+Tags: comments, comment, url, links, url, remove, hide
 Requires at least: 2.x
 Tested up to: 4.8
 Stable tag: 1.8
 GitHub Plugin URI: mtoensing/remove-links-and-urls-from-comments
 
-A very simple plugin that prevents Wordpress from automatically creating links in the comments section after 30 days.
+A simple plugin that removes all urls from Wordpress comments after 30 days.
 
 == Description ==
 
-Since this plugin only effects your output your visitors links will show up as normal hyperlinks as soon as you deactivate this plugin.
-
-This plugins also removes the author url from comments older than 6 months.
+A simple plugin that removes all urls from Wordpress comments after 30 days. Since this plugin only effects your output your visitors links will show up as normal hyperlinks as soon as you deactivate this plugin.
 
 == Installation ==
 
