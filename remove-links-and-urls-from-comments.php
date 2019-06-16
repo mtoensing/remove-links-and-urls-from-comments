@@ -3,7 +3,7 @@
 Plugin Name: Remove links and URLs from comment text
 Plugin URI: https://marc.tv
 Description: A simple plugin that removes all urls from Wordpress comments after 30 days.
-Version: 1.8
+Version: 1.8.1
 Author: MarcDK
 Author URI: https://marc.tv
 GitHub Plugin URI: mtoensing/remove-links-and-urls-from-comments

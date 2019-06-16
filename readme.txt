@@ -3,7 +3,7 @@ Contributors: MarcDK
 Tags: comments, comment, url, links, url, remove, hide
 Requires at least: 2.x
 Tested up to: 4.8
-Stable tag: 1.8
+Stable tag: 1.8.1
 GitHub Plugin URI: mtoensing/remove-links-and-urls-from-comments
 
 A simple plugin that removes all urls from Wordpress comments after 30 days.
