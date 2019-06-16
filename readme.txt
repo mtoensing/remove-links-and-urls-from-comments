@@ -6,7 +6,7 @@ Tested up to: 4.8
 Stable tag: 1.8
 GitHub Plugin URI: mtoensing/remove-links-and-urls-from-comments
 
-A very simple plugin that prevents Wordpress from automatically creating links in the comments section after 6 months.
+A very simple plugin that prevents Wordpress from automatically creating links in the comments section after 30 days.
 
 == Description ==
 
